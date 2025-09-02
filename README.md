@@ -1,5 +1,40 @@
 # Lab: Inheritance, Class Attributes, and Class Methods- Music Library System
 
+This is a simple Python class that models a song within a music streaming library. The Song class is designed to keep track of individual song info as well as aggregate data across all songs created.
+
+## Features:
+- Create individual Song objects with a name, artist, and genre.
+- Track the total number of songs created.
+- Maintain a list of all unique artists and genres.
+- Count how many songs exist for each genre.
+- Count how many songs each artist is responsible for.
+
+## Class Overview:
+Song
+
+Instance Attributes:
+name – the name of the song
+artist – the artist who performed the song
+genre – the genre of the song
+
+Class Attributes:
+count – total number of song instances
+artists – list of all unique artist names
+genres – list of all unique genres
+genre_count – dictionary that counts songs per genre (e.g., {"Pop": 3})
+artist_count – dictionary that counts songs per artist (e.g., {"Beyonce": 2})
+
+Class Methods:
+- add_song_to_count()
+- add_to_artists(artist)
+- add_to_genres(genre)
+- add_to_genre_count(genre)
+- add_to_artist_count(artist)
+
+
+------------------
+
+
 Now that you’ve delved into creating class attributes and methods it is time to put these concepts to the test. In this lab our focus will be on a song class that will include several class attributes and methods.
 
 ## The Scenario
